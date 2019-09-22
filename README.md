@@ -5,7 +5,10 @@ Home Assistant (custom component) integration of MyVacBot Robart
 - Copy directory **robart** to **.homeassistant/custom_components/**
 
 - Add **vacuum** section to **configuration.yaml**
-vacuum:                                                                                                                                      
-  - platform: robart                                                                                                                         
-    host: <ip address>
+
+```
+  vacuum:                                                                                                                                      
+    - platform: robart                                                                                                                         
+      host: <ip address>
+```
   
